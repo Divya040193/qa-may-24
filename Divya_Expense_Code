@@ -1,0 +1,49 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        Output oo= new Output();
+      oo.mealExpense(1000,2000);
+        
+    
+      oo.totalExpense(1000,2000,3000)
+        // System,out.println(total);
+    }
+    
+}      
+       
+public Class Output()
+{      
+       int dinner;
+       int breakfast;
+       int carRental;
+       int lunch;
+       
+       public Output(int dinner,int breakfast,int carRental,int lunch)
+       {
+           this.dinner=dinner;
+           this.breakfast=breakfast;
+           this.carRental=carRental;
+           this.lunch=lunch;
+       }
+       public int mealExpense(int dinner,int breakfast)
+       {
+           int mealExpense= (dinner+ breakfast);
+           return mealExpense;
+       }
+       
+       public int carRental(int carRent){
+           int carrental= carRent;
+           return carrental;
+       }
+       
+       public int totalExpense(int dinner,int breakfast,int car)
+       {
+           int total= int dinner + int breakfast+ int car;
+           return total;
+       }
+       
+    
+    
+}
